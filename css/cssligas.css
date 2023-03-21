@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: rgb(237, 239, 243);
+}
+
+
+.Center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+}
+
+
+
+header{
+  background-image: linear-gradient(to bottom, rgb(6, 19, 68), rgb(5, 21, 104), rgb(4, 21, 122));
+    padding: 20px 0;
+   /* background-image: url("imagens/fundo.png");*/
+    height: 180px;
+}
+
+
+
+.logo{
+   width: 40%;
+   
+}
+
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover{
+  color: rgb(221, 221, 235);
+  cursor: pointer;
+}
+
+.grupoA{
+  width: 100%;
+  padding-top: 60px;
+  height: 480px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+.grupoB{
+  width: 100%;
+  padding-top: 60px;
+  height: 480px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+.grupoC{
+  width: 100%;
+  padding-top: 60px;
+  height: 480px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+.grupoD{
+  width: 100%;
+  padding-top: 60px;
+  height: 560px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+.grupoE{
+  width: 100%;
+  padding-top: 60px;
+  height: 560px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+.grupoF{
+  width: 100%;
+  padding-top: 60px;
+  height: 560px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+.grupoG{
+  width: 100%;
+  padding-top: 60px;
+  height: 560px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+.grupoH{
+  width: 100%;
+  padding-top: 60px;
+  height: 560px;
+  text-align: center;
+  background-color: rgb(237, 239, 243);
+  background-size: 100%; 
+  
+     
+}
+
+
+#picture1{
+  width: 80%;
+  height: 100%;
+  margin-right: 40px;
+  border-radius: 10px;
+  position: static;
+  padding-bottom: 80px;
+}
+
+
+.footer {
+  background-image: linear-gradient(to bottom, rgb(6, 19, 68), rgb(5, 21, 104), rgb(4, 21, 122));
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 700%;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+
+.menudois{
+  padding-top: 15px;
+  width: 89%;
+  text-align: right;
+}
+
+.menudois a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 37px;
+}
+
+.menudois a:hover{
+  color: rgb(211, 211, 238);
+}
+
+.logodois{
+  width: 15%;
+  height: 10%;
+  padding-top: 10px;
+} 
+
+
+button{
+  padding-bottom: 60px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(22,45,220);
+  border: 1px solid rgba(22, 45, 220, 0);
+  padding: 15px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 67%;
+  font-size: 15px;
+  width: 15%;
+  height: 60px;   
+  border-radius: 5px; 
+}
+
+
+button:hover{
+  background-color: rgb(13, 58, 255);
+  color: white;
+  transition: 0.5s; 
+}
